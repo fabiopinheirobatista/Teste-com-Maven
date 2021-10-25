@@ -1,2 +1,11 @@
 jdbc:h2:file:~/test
 
+---------------------------------------------------
+
+ADICIONAR CATEGORIA
+-------------------
+
+public Categoria find(Integer id) {
+	Optional<Categoria> obj = repo.findById(id);
+	return obj.orElse(null);
+}

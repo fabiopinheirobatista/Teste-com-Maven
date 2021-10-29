@@ -34,7 +34,5 @@ public class TestemcApplication implements CommandLineRunner {
 		categoriaRepository.saveAll(Arrays.asList(cat1, cat2));
 		
 	}
-	
-	
 
 }
